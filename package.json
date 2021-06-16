@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-define-configurable-read-only-property",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Define a configurable read-only property.",
   "license": "Apache-2.0",
   "author": {
