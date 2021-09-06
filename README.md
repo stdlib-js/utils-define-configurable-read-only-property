@@ -105,6 +105,15 @@ try {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/define-configurable-read-only-accessor`][@stdlib/utils/define-configurable-read-only-accessor]: define a configurable read-only accessor.
+-   [`@stdlib/utils/define-configurable-read-write-accessor`][@stdlib/utils/define-configurable-read-write-accessor]: define a configurable read-write accessor.
+-   [`@stdlib/utils/define-property`][@stdlib/utils/define-property]: define (or modify) an object property.
+-   [`@stdlib/utils/define-read-only-property`][@stdlib/utils/define-read-only-property]: define a read-only property.
+
 </section>
 
 <!-- /.related -->
@@ -159,7 +168,17 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
+<!-- <related-links> -->
+
+[@stdlib/utils/define-configurable-read-only-accessor]: https://github.com/stdlib-js/utils-define-configurable-read-only-accessor
+
+[@stdlib/utils/define-configurable-read-write-accessor]: https://github.com/stdlib-js/utils-define-configurable-read-write-accessor
+
 [@stdlib/utils/define-property]: https://github.com/stdlib-js/utils-define-property
+
+[@stdlib/utils/define-read-only-property]: https://github.com/stdlib-js/utils-define-read-only-property
+
+<!-- </related-links> -->
 
 </section>
 
