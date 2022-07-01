@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2019 The Stdlib Authors.
@@ -16,21 +16,22 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 2.0
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
-var defineProperty = require( '@stdlib/utils-define-property' );
-
-
-// MAIN //
+import { PropertyName } from '@stdlib/types/object';
 
 /**
 * Defines a configurable read-only property.
 *
-* @param {Object} obj - object on which to define the property
-* @param {(string|symbol)} prop - property name
-* @param {*} value - value to set
+* ## Notes
+*
+* -   Configurable read-only properties are **enumerable**.
+*
+* @param obj - object on which to define property
+* @param prop - property name
+* @param value - value to set
 *
 * @example
 * var obj = {};
@@ -43,16 +44,9 @@ var defineProperty = require( '@stdlib/utils-define-property' );
 *     console.error( err.message );
 * }
 */
-function setConfigurableReadOnly( obj, prop, value ) {
-	defineProperty( obj, prop, {
-		'configurable': true,
-		'enumerable': true,
-		'writable': false,
-		'value': value
-	});
-}
+declare function setConfigurableReadOnly( obj: any, prop: PropertyName, value: any ): void; // tslint:disable-line: max-line-length
 
 
 // EXPORTS //
 
-module.exports = setConfigurableReadOnly;
+export = setConfigurableReadOnly;
