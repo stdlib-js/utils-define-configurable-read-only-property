@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import setConfigurableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-property@deno/mod.js';
+import setConfigurableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-property@v0.1.0-deno/mod.js';
 ```
 
 #### setConfigurableReadOnly( obj, prop, value )
@@ -81,7 +81,7 @@ obj.foo = 'boop';
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import setConfigurableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-property@deno/mod.js';
+import setConfigurableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-property@v0.1.0-deno/mod.js';
 
 function Foo( name ) {
     if ( !(this instanceof Foo) ) {
