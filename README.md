@@ -35,43 +35,32 @@ limitations under the License.
 
 > [Define][@stdlib/utils/define-property] a configurable **read-only** property.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-define-configurable-read-only-property
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-setConfigurableReadOnly = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-property@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-define-configurable-read-only-property/tags). For example,
-
-```javascript
-setConfigurableReadOnly = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-property@v0.2.0-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var setConfigurableReadOnly = require( 'path/to/vendor/umd/utils-define-configurable-read-only-property/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-property@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.setConfigurableReadOnly;
-})();
-</script>
+var setConfigurableReadOnly = require( '@stdlib/utils-define-configurable-read-only-property' );
 ```
 
 #### setConfigurableReadOnly( obj, prop, value )
@@ -109,13 +98,8 @@ obj.foo = 'boop';
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-property@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var setConfigurableReadOnly = require( '@stdlib/utils-define-configurable-read-only-property' );
 
 function Foo( name ) {
     if ( !(this instanceof Foo) ) {
@@ -132,11 +116,6 @@ try {
 } catch ( err ) {
     console.error( err.message );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -199,8 +178,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/utils-define-configurable-read-only-property.svg
 [npm-url]: https://npmjs.org/package/@stdlib/utils-define-configurable-read-only-property
 
-[test-image]: https://github.com/stdlib-js/utils-define-configurable-read-only-property/actions/workflows/test.yml/badge.svg?branch=v0.2.0
-[test-url]: https://github.com/stdlib-js/utils-define-configurable-read-only-property/actions/workflows/test.yml?query=branch:v0.2.0
+[test-image]: https://github.com/stdlib-js/utils-define-configurable-read-only-property/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/utils-define-configurable-read-only-property/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/utils-define-configurable-read-only-property/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/utils-define-configurable-read-only-property?branch=main
@@ -234,13 +213,13 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/define-configurable-read-only-accessor]: https://github.com/stdlib-js/utils-define-configurable-read-only-accessor/tree/umd
+[@stdlib/utils/define-configurable-read-only-accessor]: https://github.com/stdlib-js/utils-define-configurable-read-only-accessor
 
-[@stdlib/utils/define-configurable-read-write-accessor]: https://github.com/stdlib-js/utils-define-configurable-read-write-accessor/tree/umd
+[@stdlib/utils/define-configurable-read-write-accessor]: https://github.com/stdlib-js/utils-define-configurable-read-write-accessor
 
-[@stdlib/utils/define-property]: https://github.com/stdlib-js/utils-define-property/tree/umd
+[@stdlib/utils/define-property]: https://github.com/stdlib-js/utils-define-property
 
-[@stdlib/utils/define-read-only-property]: https://github.com/stdlib-js/utils-define-read-only-property/tree/umd
+[@stdlib/utils/define-read-only-property]: https://github.com/stdlib-js/utils-define-read-only-property
 
 <!-- </related-links> -->
 
