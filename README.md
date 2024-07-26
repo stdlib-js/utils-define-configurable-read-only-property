@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import setConfigurableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-property@esm/index.mjs';
+import setConfigurableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-property@v0.2.2-esm/index.mjs';
 ```
 
 #### setConfigurableReadOnly( obj, prop, value )
@@ -86,7 +86,7 @@ obj.foo = 'boop';
 <body>
 <script type="module">
 
-import setConfigurableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-property@esm/index.mjs';
+import setConfigurableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-property@v0.2.2-esm/index.mjs';
 
 function Foo( name ) {
     if ( !(this instanceof Foo) ) {
